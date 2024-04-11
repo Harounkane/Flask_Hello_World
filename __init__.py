@@ -16,7 +16,6 @@ def exercices():
 @app.route('/contact/')
 def MaPremiereAPI():
     return render_template('contact.html')
-  @app.route('/calcul_carre/<int:val_user>')
                                                                                                                
 if __name__ == "__main__":
   app.run(debug=True)
